@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: datafeed_shared_schema
+    database: "{{('rishi_dbt')}}"
+    schema: rishi_source
+
+    tables:
+      - name: CUSTOMERS
+      - name: PAYMENTS
+      - name: ORDERS
+      - name: orders_clone
+      - name: students
+      - name: students_clone
+      - name: employee
+      
